@@ -1,7 +1,7 @@
 import csv
 from datetime import datetime
 from gtts import gTTS
-from moviepy.editor import *
+from moviepy.editor import TextClip, ColorClip, AudioFileClip, CompositeVideoClip
 import os
 
 PROMPT_FILE = "prompts.csv"
